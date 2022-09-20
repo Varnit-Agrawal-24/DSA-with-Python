@@ -125,7 +125,7 @@ if __name__=='__main__':
 
 
     #Searching
-    x=int(input())
+    x=int(input("Enter element"))
     p=ll.search()
     print(p)
     
