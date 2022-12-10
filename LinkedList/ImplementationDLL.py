@@ -30,8 +30,8 @@ class DoubleLinkedList:
             currNode.perv=currNode.next
             currNode.next=pervNode
             currNode=currNode.perv
-            if(currNode is not None):
-                self.head=currNode
+        if(currNode is not None):
+            self.head=currNode
 
 if __name__=="__main__":
     #create DLL and insert values with self assigning of node
